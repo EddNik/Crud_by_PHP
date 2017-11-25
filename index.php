@@ -7,4 +7,4 @@
  */
 
 
-echo "Connection to database"
+echo "Connection test
