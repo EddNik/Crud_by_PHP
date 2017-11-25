@@ -7,4 +7,5 @@
  */
 
 
-echo "Connection test
+echo "Connection test"
+echo "bootcamp"
