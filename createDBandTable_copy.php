@@ -25,12 +25,8 @@ if (isset($_POST["nameDB"]) && isset($_POST["nameTable"])) {
 
     //connect to database and create table
     $use_database = new PDO("mysql:host=$servername;dbname=$databaseName", $username, $password);
-    $sql_createTable = " CREATE TABLE $tableName (id int(11) NOT NULL AUTO_INCREMENT,
- firstName varchar(255) CHARACTER SET utf8 NOT NULL,lastName text CHARACTER SET utf8 NOT NULL,
- hireDate datetime NOT NULL, PRIMARY KEY (id)) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
-";
-
-
+    $sql_createTable = "CREATE TABLE  $tableName (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(30) NOT NULL,lastname VARCHAR(30) NOT NULL,hire_Date TIMESTAMP)";
     $pdo_statement = $use_database->prepare($sql_createTable);
     $pdo_statement->execute();
 
