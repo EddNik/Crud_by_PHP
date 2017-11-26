@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff78d3d9-bf90-41ec-b81a-3dce1a8e8d4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PDOExeption.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createDBandTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create_copy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/insert_INTO.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Crud_by_PHP.iml" afterPath="$PROJECT_DIR$/.idea/Crud_by_PHP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +31,7 @@
             <state relative-caret-position="420">
               <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="82" />
               <folding>
-                <marker date="1511656182273" expanded="true" signature="306:400" ph="INSERT INTO article... " />
+                <marker date="1511709344312" expanded="true" signature="306:400" ph="INSERT INTO article... " />
               </folding>
             </state>
           </provider>
@@ -51,11 +41,11 @@
         <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
-                <marker date="1511700642121" expanded="true" signature="826:988" ph="CREATE TABLE... listEmployees" />
-                <marker date="1511700642121" expanded="true" signature="826:1052" ph="CREATE TABLE... listEmployees" />
-                <marker date="1511700642121" expanded="true" signature="1105:1214" ph="INSERT INTO article... " />
+                <marker date="1511708671816" expanded="true" signature="826:988" ph="CREATE TABLE... listEmployees" />
+                <marker date="1511708671816" expanded="true" signature="826:1052" ph="CREATE TABLE... listEmployees" />
+                <marker date="1511708671816" expanded="true" signature="1105:1214" ph="INSERT INTO article... " />
               </folding>
             </state>
           </provider>
@@ -64,10 +54,10 @@
       <file leaf-file-name="insert_INTO.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/insert_INTO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <marker date="1511705255861" expanded="true" signature="447:547" ph="INSERT INTO listEmployees... " />
+                <marker date="1511708671832" expanded="true" signature="447:547" ph="INSERT INTO listEmployees... " />
               </folding>
             </state>
           </provider>
@@ -76,12 +66,12 @@
       <file leaf-file-name="createDBandTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createDBandTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="469">
+              <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
               <folding>
-                <marker date="1511704513902" expanded="true" signature="853:865" ph="CREATE TABLE... ${$_POST[}" />
-                <marker date="1511704513902" expanded="true" signature="853:867" ph="CREATE TABLE... ${$_POST[}" />
-                <marker date="1511704513902" expanded="true" signature="853:1011" ph="CREATE TABLE... listEmployees" />
+                <marker date="1511708671820" expanded="true" signature="853:865" ph="CREATE TABLE... ${$_POST[}" />
+                <marker date="1511708671820" expanded="true" signature="853:867" ph="CREATE TABLE... ${$_POST[}" />
+                <marker date="1511708671820" expanded="true" signature="853:1011" ph="CREATE TABLE... listEmployees" />
               </folding>
             </state>
           </provider>
@@ -110,8 +100,8 @@
         <option value="$PROJECT_DIR$/PDOExeption.php" />
         <option value="$USER_HOME$/PhpstormProjects/createDB/test.php" />
         <option value="$PROJECT_DIR$/create.php" />
-        <option value="$PROJECT_DIR$/createDBandTable.php" />
         <option value="$PROJECT_DIR$/insert_INTO.php" />
+        <option value="$PROJECT_DIR$/createDBandTable.php" />
       </list>
     </option>
   </component>
@@ -124,8 +114,8 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="27" />
+    <option name="x" value="53" />
+    <option name="y" value="55" />
     <option name="width" value="961" />
     <option name="height" value="713" />
   </component>
@@ -205,19 +195,28 @@
       <workItem from="1511632945115" duration="2184000" />
       <workItem from="1511650177688" duration="994000" />
       <workItem from="1511652742681" duration="3568000" />
-      <workItem from="1511677968649" duration="24552000" />
+      <workItem from="1511677968649" duration="25273000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'develop' of github.com:EddNik/Crud_by_PHP into develop&#10;&#10;# Conflicts:&#10;#&#9;index.php">
+      <created>1511709375944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511709375944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31298000" />
+    <option name="totallyTimeSpent" value="32019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="27" width="961" height="713" extended-state="0" />
+    <frame x="53" y="55" width="961" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07180021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -240,6 +239,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'develop' of github.com:EddNik/Crud_by_PHP into develop&#10;&#10;# Conflicts:&#10;#&#9;index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'develop' of github.com:EddNik/Crud_by_PHP into develop&#10;&#10;# Conflicts:&#10;#&#9;index.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -269,7 +272,7 @@
         <state relative-caret-position="204">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1511656182273" expanded="true" signature="306:400" ph="INSERT INTO article... " />
+            <marker date="1511709344312" expanded="true" signature="306:400" ph="INSERT INTO article... " />
           </folding>
         </state>
       </provider>
@@ -279,7 +282,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511656182273" expanded="true" signature="306:400" ph="INSERT INTO article... " />
+            <marker date="1511709344312" expanded="true" signature="306:400" ph="INSERT INTO article... " />
           </folding>
         </state>
       </provider>
@@ -306,7 +309,7 @@
         <state relative-caret-position="108">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1511656182273" expanded="true" signature="306:400" ph="INSERT INTO article... " />
+            <marker date="1511709344312" expanded="true" signature="306:400" ph="INSERT INTO article... " />
           </folding>
         </state>
       </provider>
@@ -398,11 +401,11 @@
     <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1511700642121" expanded="true" signature="826:988" ph="CREATE TABLE... listEmployees" />
-            <marker date="1511700642121" expanded="true" signature="826:1052" ph="CREATE TABLE... listEmployees" />
-            <marker date="1511700642121" expanded="true" signature="1105:1214" ph="INSERT INTO article... " />
+            <marker date="1511708671816" expanded="true" signature="826:988" ph="CREATE TABLE... listEmployees" />
+            <marker date="1511708671816" expanded="true" signature="826:1052" ph="CREATE TABLE... listEmployees" />
+            <marker date="1511708671816" expanded="true" signature="1105:1214" ph="INSERT INTO article... " />
           </folding>
         </state>
       </provider>
@@ -412,29 +415,29 @@
         <state relative-caret-position="420">
           <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="82" />
           <folding>
-            <marker date="1511656182273" expanded="true" signature="306:400" ph="INSERT INTO article... " />
+            <marker date="1511709344312" expanded="true" signature="306:400" ph="INSERT INTO article... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createDBandTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="469">
+          <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
           <folding>
-            <marker date="1511704513902" expanded="true" signature="853:865" ph="CREATE TABLE... ${$_POST[}" />
-            <marker date="1511704513902" expanded="true" signature="853:867" ph="CREATE TABLE... ${$_POST[}" />
-            <marker date="1511704513902" expanded="true" signature="853:1011" ph="CREATE TABLE... listEmployees" />
+            <marker date="1511708671820" expanded="true" signature="853:865" ph="CREATE TABLE... ${$_POST[}" />
+            <marker date="1511708671820" expanded="true" signature="853:867" ph="CREATE TABLE... ${$_POST[}" />
+            <marker date="1511708671820" expanded="true" signature="853:1011" ph="CREATE TABLE... listEmployees" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insert_INTO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
-            <marker date="1511705255861" expanded="true" signature="447:547" ph="INSERT INTO listEmployees... " />
+            <marker date="1511708671832" expanded="true" signature="447:547" ph="INSERT INTO listEmployees... " />
           </folding>
         </state>
       </provider>
