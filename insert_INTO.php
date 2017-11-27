@@ -30,6 +30,8 @@ if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hir
     $pdo_statement->bindValue(":lastName", $_POST["lastName"]);
     $pdo_statement->bindValue(":hireDate", $_POST["hireDate"]);
     $pdo_statement->execute();
+   // header("Location: index.php");
+
 }
 $datetime = date("Y-m-d H:i:s", time());
 $use_database = null;

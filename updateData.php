@@ -10,7 +10,7 @@ $username = "root";
 $password = "edd_14235";
 $dsn = "mysql:host=localhost;dbname=employees";
 
-if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hireDate"]) && isset($_POST["id"])) {
+if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hireDate"]) && isset($_GET["id"])) {
     //connect to database
     try {
         $use_database = new PDO($dsn, $username, $password);
@@ -22,7 +22,7 @@ if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hir
         //insert data
         $sql_useDB = "UPDATE article SET firstName = :firstName, lastName = :lastName, hireDate = :lastName WHERE id = :id";
         $pdo_statement = $use_database->prepare($sql_useDB);
-        $pdo_statement->bindValue(":id", $_POST["id"]);
+        $pdo_statement->bindValue(":id", $_GET["id"]);
         $pdo_statement->bindValue(":firstName", $_POST["firstName"]);
         $pdo_statement->bindValue(":lastName", $_POST["lastName"]);
         $pdo_statement->bindValue(":hireDate", $_POST["hireDate"]);
