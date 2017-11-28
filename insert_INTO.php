@@ -5,20 +5,15 @@
  * Date: 26.11.17
  * Time: 8:36
  */
-
-
 $servername = "localhost";
-$username = "root";
-$password = "edd_14235";
-//получаем переменные из  createDBandTable.php
 $nameDB = $_GET["nameDB"];
 $nameTab = $_GET["nameTable"];
-//
 $dsn = "mysql:host=$servername;dbname=$nameDB";
+
 if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hireDate"])) {
     //connect to database
     try {
-        $use_database = new PDO($dsn, $username, $password);
+        $use_database = new PDO($dsn, "root", "edd_14235");
         $use_database->setAttribute(":ATTR_ERRMODE", ":ERRMODE_EXCEPTION");
     } catch (PDOException $myExcept) {
         echo "Подключение не удалось: <br/>" . $myExcept->getMessage();
@@ -30,8 +25,7 @@ if (isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["hir
     $pdo_statement->bindValue(":lastName", $_POST["lastName"]);
     $pdo_statement->bindValue(":hireDate", $_POST["hireDate"]);
     $pdo_statement->execute();
-   // header("Location: index.php");
-
+   header("Location: index.php?nameDB=".$nameDB."&nameTable=".$nameTab);
 }
 $datetime = date("Y-m-d H:i:s", time());
 $use_database = null;

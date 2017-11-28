@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/etaloneCode/CRUD/.idea/CRUD.iml" filepath="$USER_HOME$/etaloneCode/CRUD/.idea/CRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Crud_by_PHP.iml" filepath="$PROJECT_DIR$/.idea/Crud_by_PHP.iml" />
-      <module fileurl="file://$USER_HOME$/PhpstormProjects/createDB/.idea/createDB.iml" filepath="$USER_HOME$/PhpstormProjects/createDB/.idea/createDB.iml" />
     </modules>
   </component>
 </project>
