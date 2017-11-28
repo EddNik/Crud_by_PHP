@@ -17,7 +17,7 @@ $dsn = "mysql:host=localhost;dbname=employees";
         echo "Подключение не удалось: <br/>" . $myExcept->getMessage();
     }
     try {
-        //insert data
+        //delete data
         $sql_useDB = "DELETE from  article WHERE id = :id";
         $pdo_statement = $use_database->prepare($sql_useDB);
         $pdo_statement->bindValue(":id", $_GET["id"]);
